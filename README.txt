@@ -3,5 +3,7 @@ This code is probably extremely bad, but it's my first time, so...
 
 Run this from the command line. An example command would be:
 C:\Users\%USERNAME%\Downloads>mandelbrot 2048 32 0 0 2 mandel.png
+Running the program from the command line with no arguments shows a usage dialouge.
+
 
 libattopng.c and libattopng.h are from https://github.com/misc0110/libattopng.
