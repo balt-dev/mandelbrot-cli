@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[]) {
 	if (argc < 6) {
-		printf("Mandelbrot generator made in C.\nUsage: <image size (uint)> <iterations (uint)> <x offset (double)> <y offset (double> <domain (double)> <save path (char[])>");
+		printf("Mandelbrot generator made in C.\nUsage: <image size (uint)> <iterations (uint)> <x offset (double)> <y offset (double)> <domain (double)> <save path (char[])>");
 		return 0;
 	}
 	const unsigned int dataSize = atoi(argv[1]);
